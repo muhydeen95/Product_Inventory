@@ -1,4 +1,4 @@
-let products = [
+const products = [
     {
         id: 1,
         name: "Laptop",
@@ -63,4 +63,4 @@ let products = [
 
 //console.log(products)
 
-export default products;
+module.export = products;
