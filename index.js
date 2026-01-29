@@ -1,13 +1,13 @@
 require('dotenv').config();
 
 const express = require('express');
-const router = require('./routes/router');
+const router = require('./routes/product.route.js');
 
-const app = express(express.json());
-
+const app = express();
+app.use(express.json())
 
 app.get('/', (req, res) => {
-
+  res.send("hello");
 });
 
 app.use('/api', router);

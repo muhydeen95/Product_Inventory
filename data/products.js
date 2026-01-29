@@ -1,4 +1,4 @@
-const products = [
+[
     {
         id: 1,
         name: "Laptop",
@@ -63,4 +63,4 @@ const products = [
 
 //console.log(products)
 
-module.export = products;
+module.exports = products;
