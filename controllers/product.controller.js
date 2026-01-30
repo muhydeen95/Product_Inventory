@@ -1,8 +1,8 @@
 const express = require('express');
-// const products = require("../data/productsDB.json");
+// const products = require("../data/products.json");
 const fs = require('fs');
 const path = require('path');
-const filePath = path.join(__dirname, '../data/productsDB.json'); // Import product DataBase
+const filePath = path.join(__dirname, '../data/products.json'); // Import product DataBase
 
 let products = JSON.parse(fs.readFileSync(filePath, 'utf8')); // Saves Newly logged product into the database
 
@@ -37,12 +37,12 @@ exports.newProduct = (req, res) => {
         quantity: quantity || 0, // Default to 0 if not provided
         description: description || "",
         category: category || "General",
-        createdAt: new Date().toISOString().split('T')[0], // Format: YYYY-MM-DD
+        createdAt: new Date(), // Format: YYYY-MM-DD
         updatedAt: null
     };
 
     products.push(newProduct);  // update array in-memory
-    fs.writeFileSync(filePath, JSON.stringify(products, null, 2)); // persist
+    /// fs.writeFileSync(filePath, JSON.stringify(products, null, 2)); /* Save newly logged product directly into the .json DataBase. */
 
     console.log(newProduct)
     // save product
