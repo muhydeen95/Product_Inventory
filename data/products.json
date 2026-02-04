@@ -6,7 +6,7 @@
     "price": 250000,
     "quantity": 5,
     "category": "Electronics",
-    "createdAt": "2026-01-10",
+    "createdAt": "2026-01-10T09:15:00",
     "updatedAt": null
   },
   {
@@ -16,7 +16,7 @@
     "price": 15000,
     "quantity": 25,
     "category": "Accessories",
-    "createdAt": "2026-01-12",
+    "createdAt": "2026-01-12T11:30:00",
     "updatedAt": null
   },
   {
@@ -26,8 +26,8 @@
     "price": 45000,
     "quantity": 10,
     "category": "Accessories",
-    "createdAt": "2026-01-15",
-    "updatedAt": "2026-01-20"
+    "createdAt": "2026-01-15T14:45:00",
+    "updatedAt": "2026-01-20T10:20:00"
   },
   {
     "id": 4,
@@ -36,7 +36,7 @@
     "price": 85000,
     "quantity": 15,
     "category": "Electronics",
-    "createdAt": "2026-01-18",
+    "createdAt": "2026-01-18T08:10:00",
     "updatedAt": null
   },
   {
@@ -46,7 +46,7 @@
     "price": 120000,
     "quantity": 8,
     "category": "Electronics",
-    "createdAt": "2026-01-22",
+    "createdAt": "2026-01-22T16:00:00",
     "updatedAt": null
   },
   {
@@ -56,7 +56,7 @@
     "price": 12500,
     "quantity": 30,
     "category": "Office Supplies",
-    "createdAt": "2026-01-25",
+    "createdAt": "2026-01-25T13:25:00",
     "updatedAt": null
   },
   {
@@ -66,7 +66,7 @@
     "quantity": 0,
     "description": "",
     "category": "General",
-    "createdAt": "2026-01-29",
+    "createdAt": "2026-01-29T09:00:00",
     "updatedAt": null
   },
   {
@@ -76,7 +76,7 @@
     "quantity": 20,
     "description": "",
     "category": "General",
-    "createdAt": "2026-01-29",
+    "createdAt": "2026-01-29T10:15:00",
     "updatedAt": null
   },
   {
@@ -86,7 +86,7 @@
     "quantity": 27,
     "description": "",
     "category": "General",
-    "createdAt": "2026-01-29",
+    "createdAt": "2026-01-29T12:40:00",
     "updatedAt": null
   },
   {
@@ -96,7 +96,7 @@
     "quantity": 27,
     "description": "",
     "category": "General",
-    "createdAt": "2026-01-29",
+    "createdAt": "2026-01-29T15:10:00",
     "updatedAt": null
   },
   {
@@ -106,7 +106,7 @@
     "quantity": 36,
     "description": "",
     "category": "General",
-    "createdAt": "2026-01-29",
+    "createdAt": "2026-01-29T17:55:00",
     "updatedAt": null
   }
 ]
